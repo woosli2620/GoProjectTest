@@ -12,7 +12,7 @@ func main() {
 
     var str1 = "hello "
     var str2 = "world"
-    var res = str1 + str2
+    var res = str1 + str2 + "!"
 
     fmt.Println("res = ",res)
 }
