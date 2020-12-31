@@ -15,6 +15,4 @@ func main() {
     var n3 int64 = int64(i)
 
     fmt.Printf("i = %v,n1 = %v,n2 = %v,n3 = %v",i,n1,n2,n3)
-
-    
 }
