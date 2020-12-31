@@ -21,4 +21,7 @@ func main() {
 
     var c4 int = 22269
     fmt.Printf("c4=%c",c4)
+
+    var n1 = 10 + 'a'
+    fmt.Printf("\nn1 = ",n1)
 }
