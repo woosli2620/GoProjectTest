@@ -37,5 +37,8 @@ func main() {
 
     //查看占用大小
     var n2 int64 = 10
-    fmt.Printf("n2 的类型是 %T，占用字节是 %d",n2,unsafe.Sizeof(n2))
+    fmt.Printf("n2 的类型是 %T，占用字节是 %d\n",n2,unsafe.Sizeof(n2))
+
+    var age byte = 90
+    fmt.Printf("age 的类型是 %T，占用字节是 %d\n",age,unsafe.Sizeof(age))
 }
