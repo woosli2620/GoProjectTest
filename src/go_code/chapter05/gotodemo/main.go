@@ -5,8 +5,6 @@ import (
 )
 
 func main() {
-	
-	
 	var i int = 1
 	
 	for i= 1;i<13;i++{
